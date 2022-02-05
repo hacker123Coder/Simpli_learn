@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import java.io.IOException;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -38,3 +39,45 @@ public class InfoPage extends HttpServlet {
 
 }
 
+=======
+import java.io.IOException;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+* Servlet implementation class InfoPage
+*/
+@WebServlet("/InfoPage")
+public class InfoPage extends HttpServlet {
+        private static final long serialVersionUID = 1L;
+       
+    /**
+* @see HttpServlet#HttpServlet()
+*/
+    public InfoPage() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+        /**
+         * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+         */
+        protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+                // TODO Auto-generated method stub
+                response.getWriter().write("I am in InfoPage");
+        }
+
+        /**
+         * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+         */
+        protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+                // TODO Auto-generated method stub
+                doGet(request, response);
+        }
+
+}
+
+>>>>>>> 08b7d28c0e6f394d0e486bb5c69d076bd7dfc492
