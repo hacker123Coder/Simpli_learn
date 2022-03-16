@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.akshay.training.ParallelTest" duration-ms="12846" started-at="2022-03-08T23:37:01 IST" finished-at="2022-03-08T23:37:13 IST">
+    <groups>
+      <group name="Chrome">
+        <method signature="ParallelTest.LaunchFacebook()[pri:0, instance:com.akshay.training.ParallelTest@4973813a]" name="LaunchFacebook" class="com.akshay.training.ParallelTest"/>
+      </group> <!-- Chrome -->
+    </groups>
+    <test name="Command line test" duration-ms="12846" started-at="2022-03-08T23:37:01 IST" finished-at="2022-03-08T23:37:13 IST">
+      <class name="com.akshay.training.ParallelTest">
+        <test-method status="PASS" signature="LaunchFacebook()[pri:0, instance:com.akshay.training.ParallelTest@4973813a]" name="LaunchFacebook" duration-ms="12787" started-at="2022-03-08T23:37:01 IST" finished-at="2022-03-08T23:37:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchFacebook -->
+      </class> <!-- com.akshay.training.ParallelTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.akshay.training.ParallelTest -->
+</testng-results>
